@@ -54,6 +54,7 @@ Additionally, static assets (like images) are served securely from Amazon S3.
   3) Waited for DNS propagation to complete and verified domain linkage to AWS.
 ### ✅ Result: The purchased domain now correctly routes traffic to the AWS EC2-hosted website.
 
+
 ## 6️⃣ Configure SSL with Certbot (HTTPS Setup)
 
   1) Installed and configured Certbot (Let’s Encrypt) to enable HTTPS:
