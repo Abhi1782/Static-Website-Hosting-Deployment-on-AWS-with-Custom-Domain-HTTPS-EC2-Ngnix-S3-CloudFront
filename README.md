@@ -97,7 +97,7 @@ Additionally, static assets (like images) are served securely from Amazon S3.
       ]
     }
 
-## 🧠 Explanation
+# 🧠 Explanation
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -125,8 +125,21 @@ Additionally, static assets (like images) are served securely from Amazon S3.
       4) Images load through S3 + CloudFront.
       5) DNS propagation and routing work as expected.
 
-## 🧰 Tools & Services Used
+# 🧰 Tools & Services Used
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<img width="556" height="219" alt="image" src="https://github.com/user-attachments/assets/76266fec-80cd-4eaf-a31f-740639192dc2" />
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🏁 Final Output
+
+## ✅ Static Website Hosted & Deployed Successfully
+## 🌍 Domain: https://cloudtechlearner.online
+## 🔒 HTTPS Secured with SSL
+## 🚀 Accelerated via CloudFront CDN
+### 📦 S3 Assets Protected via CloudFront Policy
+🌐 Domain Purchased & Linked via Hostinger + Route 53
 
 
