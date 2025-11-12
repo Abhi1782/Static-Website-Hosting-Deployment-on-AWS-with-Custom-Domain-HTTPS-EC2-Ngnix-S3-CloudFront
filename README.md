@@ -180,7 +180,7 @@ Additionally, static assets (like images) are served securely from Amazon S3.
 
 # 🎯 Project Outcome Summary
 
-<img width="387" height="252" alt="image" src="https://github.com/user-attachments/assets/6ffa399a-892b-41ea-a049-13ee447f50a2" />
+<img width="467" height="243" alt="image" src="https://github.com/user-attachments/assets/f438b028-9f12-4fe8-bf08-ad6bb7223594" />
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
