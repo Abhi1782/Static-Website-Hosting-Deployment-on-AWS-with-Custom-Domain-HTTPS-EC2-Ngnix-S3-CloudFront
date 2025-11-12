@@ -184,19 +184,19 @@ Additionally, static assets (like images) are served securely from Amazon S3.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-"C:\Users\Lenovo\OneDrive\Documents\Project\Nginx Web Server Hosting with SSL\Captures\Museum of Candy.mp4"
+Museum of Candy Video.mp4
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 🎉 Thank You!
 
-## ✨ Thank you for exploring this project!
+### ✨ Thank you for exploring this project!
 This deployment marks the successful completion of my Static Website Hosting on AWS — powered by Ubuntu, Nginx, Route 53, S3, CloudFront, and SSL (Certbot).
 
 It demonstrates real-world cloud implementation, including domain mapping, DNS configuration, HTTPS security, and global content delivery — all integrated into a seamless,       production-ready architecture.
 
-## 🌍 Through this project, I gained hands-on experience in web hosting, domain management, and SSL encryption, further strengthening my AWS cloud engineering skills.
+### 🌍 Through this project, I gained hands-on experience in web hosting, domain management, and SSL encryption, further strengthening my AWS cloud engineering skills.
 
-## 💡 Continuous learning never stops — new projects are on the way! 🚀
+### 💡 Continuous learning never stops — new projects are on the way! 🚀
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
