@@ -53,3 +53,53 @@ Additionally, static assets (like images) are served securely from Amazon S3.
   2) Added the A and CNAME records from Route 53 into the Hostinger DNS management section.
   3) Waited for DNS propagation to complete and verified domain linkage to AWS.
 ### ✅ Result: The purchased domain now correctly routes traffic to the AWS EC2-hosted website.
+
+## 6️⃣ Configure SSL with Certbot (HTTPS Setup)
+
+  1) Installed and configured Certbot (Let’s Encrypt) to enable HTTPS:
+
+    sudo apt install certbot python3-certbot-nginx -y
+    sudo certbot --nginx -d cloudtechlearner.online -d www.cloudtechlearner.online
+
+  2) Verified HTTPS redirection (🔒 Secure Padlock).
+  3) Enabled automatic SSL renewal:
+
+         sudo certbot renew --dry-run
+
+## 7️⃣ 🪣 Configure S3 Bucket for Static Assets
+
+  1) Created an S3 bucket named staticwebsitehosting1782.
+  2) Uploaded all images and static assets (CSS, JS).
+  3) Integrated the bucket securely with CloudFront to restrict public access.
+
+## 📜🔐 Secure S3 Bucket Policy for CloudFront Access
+
+  The following policy allows only CloudFront to access objects from the S3 bucket securely — preventing any direct public S3 access.
+         
+     {
+       "Version": "2012-10-17",
+       "Statement": [
+    {
+      "Sid": "AllowCloudFrontServicePrincipalReadOnly",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "cloudfront.amazonaws.com"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::staticwebsitehosting1782/*",
+      "Condition": {
+        "StringEquals": {
+          "AWS:SourceArn": "arn:aws:cloudfront::<YOUR_ACCOUNT_ID>:distribution/d21kzhuzagmye9"
+             }
+           }
+        }
+      ]
+    }
+
+
+
+
+
+
+
+
