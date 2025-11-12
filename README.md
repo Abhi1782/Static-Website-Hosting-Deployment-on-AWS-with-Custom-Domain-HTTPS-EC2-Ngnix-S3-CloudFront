@@ -7,7 +7,11 @@ This project demonstrates the end-to-end hosting and deployment of a static webs
 The website is accessible globally over HTTPS, mapped with a custom domain purchased from a hosting provider, and optimized for performance using AWS CloudFront CDN.
 Additionally, static assets (like images) are served securely from Amazon S3.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # 🧱 Architecture Diagram
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 🧩 Steps Performed
 
@@ -48,4 +52,4 @@ Additionally, static assets (like images) are served securely from Amazon S3.
   1) Logged into the Hostinger DNS settings (where the domain was purchased).
   2) Added the A and CNAME records from Route 53 into the Hostinger DNS management section.
   3) Waited for DNS propagation to complete and verified domain linkage to AWS.
-###✅ Result: The purchased domain now correctly routes traffic to the AWS EC2-hosted website.
+### ✅ Result: The purchased domain now correctly routes traffic to the AWS EC2-hosted website.
