@@ -52,7 +52,7 @@ Additionally, static assets (like images) are served securely from Amazon S3.
   1) Logged into the Hostinger DNS settings (where the domain was purchased).
   2) Added the A and CNAME records from Route 53 into the Hostinger DNS management section.
   3) Waited for DNS propagation to complete and verified domain linkage to AWS.
-#### ✅ Result: The purchased domain now correctly routes traffic to the AWS EC2-hosted website.
+✅ Result: The purchased domain now correctly routes traffic to the AWS EC2-hosted website.
 
 
 ## 6️⃣ Configure SSL with Certbot (HTTPS Setup)
@@ -103,10 +103,29 @@ Additionally, static assets (like images) are served securely from Amazon S3.
 
 <img width="698" height="123" alt="image" src="https://github.com/user-attachments/assets/e15c602e-5862-44a2-a746-be900ee17914" />
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ✅ Advantage: Your S3 bucket stays private — only your CloudFront distribution can serve its content globally.
 
+## 8️⃣ 🌍 Setup CloudFront (Global CDN)
+
+   1) Created a CloudFront Distribution with:
+      A) EC2 Origin → Main website served via Nginx.
+      B) S3 Origin → Static files and images.
+   2) Configured:
+      A) Redirect HTTP → HTTPS
+      B) Managed-CachingOptimized policy
+      C) Custom SSL certificate (ACM / Certbot)
+✅ CloudFront improves global performance, caching, and secure content delivery.
+
+## 9️⃣ 🧪 Testing and Validation
+
+   ✅ Verified:
+      1) https://cloudtechlearner.online loads the website securely.
+      2) https://www.cloudtechlearner.online redirects correctly.
+      3) SSL is active 🔒.
+      4) Images load through S3 + CloudFront.
+      5) DNS propagation and routing work as expected.
+
+## 🧰 Tools & Services Used
 
 
 
