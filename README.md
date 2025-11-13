@@ -307,9 +307,9 @@ https://github.com/user-attachments/assets/23831b16-e396-4294-82a3-772f9a7849f7
 # 🎉 Thank You!
 
 ### ✨ Thank you for exploring this project!
-This deployment marks the successful completion of my Static Website Hosting on AWS — powered by Ubuntu, Nginx, Route 53, S3, CloudFront, and SSL (Certbot).
+This deployment marks the successful completion of my Static Website Hosting on AWS powered by Ubuntu, Nginx, Route 53, S3, CloudFront, and SSL (Certbot).
 
-It demonstrates real-world cloud implementation, including domain mapping, DNS configuration, HTTPS security, and global content delivery — all integrated into a seamless,       production-ready architecture.
+It demonstrates real-world cloud implementation, including domain mapping, DNS configuration, HTTPS security, and global content delivery, all integrated into a seamless,       production-ready architecture.
 
 ### 🌍 Through this project, I gained hands-on experience in web hosting, domain management, and SSL encryption, further strengthening my AWS cloud engineering skills.
 
